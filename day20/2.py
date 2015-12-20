@@ -10,7 +10,7 @@ for elf in xrange(1, limit):
         end = elf + 50 * elf
     else:
         end = limit
-        
+
     for house in xrange(elf, end, elf):
         houses[house] += elf * 11
 
